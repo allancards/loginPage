@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Ola mundo</h1>
-</body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <title>LoginPage</title>
+  </head>
+  <body>
+    <div class="main">
+      <img src="images/logo.svg" alt="logo" />
+      <div class="login">
+        <div class="title">
+          <img src="images/log-in.svg" alt="login" /><span>Faça seu Login</span>
+          <p>Entre com suas informações de cadastro.</p>
+        </div>
+        <div class="email">
+          <p>E-mail</p>
+          <div class="input">
+            <img src="images/mail.svg" alt="mail" />
+            <input typee="text" placeholder="digite seu email" />
+          </div>
+        </div>
+        <div class="password">
+          <p>Senha</p>
+          <div class="input">
+            <div class="in">
+              <img src="images/lock.svg" alt="senha" /><input
+                type="password"
+                placeholder="digite sua senha"
+              />
+            </div>
+            <div class="eye">
+              <img src="images/eye.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="check">
+          <div class="remen">
+            <input id="check" type="checkbox" />
+
+            <label for="check">Lembre-me</label>
+          </div>
+
+          <span>Esqueci minha senha</span>
+        </div>
+        <div class="send">
+          <button>Entrar</button>
+          <p>Não tenho uma conta ? registre-se</p>
+        </div>
+      </div>
+    </div>
+    <div class="poster">
+      <img src="images/side-image-2x.jpg" alt="" />
+    </div>
+  </body>
 </html>
